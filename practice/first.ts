@@ -97,3 +97,17 @@ const graph:[number,number]=[23,45]
 const [x,y]= graph
 
 console.log(x,y)
+
+
+                // Typescript Object Types
+
+const car:{type:string,model:string,year:number}={
+    type:"Maruti",
+    model:"800",
+    year:2020
+                }
+
+                const Car: { type: string, mileage?: number } = { // no error
+                    type: "Toyota"
+                  };
+                Car.mileage = 2000;               
